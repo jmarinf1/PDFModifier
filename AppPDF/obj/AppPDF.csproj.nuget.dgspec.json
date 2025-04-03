@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Proyectos Programación\\AppPDF\\AppPDF\\AppPDF.csproj": {}
+    "I:\\Proyectos Programación\\AppPDF\\PDFModifier\\AppPDF\\AppPDF.csproj": {}
   },
   "projects": {
-    "I:\\Proyectos Programación\\AppPDF\\AppPDF\\AppPDF.csproj": {
+    "I:\\Proyectos Programación\\AppPDF\\PDFModifier\\AppPDF\\AppPDF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Proyectos Programación\\AppPDF\\AppPDF\\AppPDF.csproj",
+        "projectUniqueName": "I:\\Proyectos Programación\\AppPDF\\PDFModifier\\AppPDF\\AppPDF.csproj",
         "projectName": "AppPDF",
-        "projectPath": "I:\\Proyectos Programación\\AppPDF\\AppPDF\\AppPDF.csproj",
+        "projectPath": "I:\\Proyectos Programación\\AppPDF\\PDFModifier\\AppPDF\\AppPDF.csproj",
         "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-        "outputPath": "I:\\Proyectos Programación\\AppPDF\\AppPDF\\obj\\",
+        "outputPath": "I:\\Proyectos Programación\\AppPDF\\PDFModifier\\AppPDF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,12 +44,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
+            },
             "itext7": {
               "target": "Package",
               "version": "[9.1.0, )"
@@ -71,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
